@@ -9,5 +9,5 @@ public interface PostService {
   Post savePost(Post post);
   List<Post> getPosts();
   Post getPostById(long id);
-  void deleteById(long id);
+  void deleteByPostId(long id);
 }
